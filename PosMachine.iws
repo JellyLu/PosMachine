@@ -73,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/input/InputFromText.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#170#171#0" expanded="true" />
@@ -98,8 +98,8 @@
       <file leaf-file-name="InputFromTextTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/input/InputFromTextTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3181818">
-              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.45454547">
+              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -329,7 +329,7 @@
       <recent name="promotionStrategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.return_list_length_4_when_text_is_empty">
+  <component name="RunManager" selected="Gradle.InputFromTextTest">
     <configuration default="false" name="CalculatePriceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -673,10 +673,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.return_list_length_4_when_text_is_empty" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.return_list_length_1_when_text_is_empty" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.return_list_length_0_when_text_is_empty" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.InputFromTextTest" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.InputFromTextTest" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.return_list_length_4_when_text_is_empty" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.return_list_length_1_when_text_is_empty" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.return_list_length_0_when_text_is_empty" />
         <item index="4" class="java.lang.String" itemvalue="Gradle.CalculatePriceTest" />
       </list>
     </recent_temporary>
@@ -710,8 +710,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="return_list_length_0_when_text_is_empty - 2015.12.07 at 23h 56m 54s.xml">
-      <configuration name="return_list_length_0_when_text_is_empty" configurationId="GradleRunConfiguration" />
+    <history-entry file="InputFromTextTest - 2015.12.08 at 00h 02m 42s.xml">
+      <configuration name="InputFromTextTest" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="return_list_length_0_when_text_is_empty - 2015.12.07 at 23h 57m 15s.xml">
       <configuration name="return_list_length_0_when_text_is_empty" configurationId="GradleRunConfiguration" />
@@ -1015,7 +1015,7 @@
         <state vertical-scroll-proportion="-0.46103895">
           <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1098,7 +1098,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/input/InputFromText.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#170#171#0" expanded="true" />
@@ -1111,8 +1111,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/input/InputFromTextTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3181818">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.45454547">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
