@@ -13,10 +13,10 @@ public class DiscountPromotionTest {
     }
 
     @Test
-    public void should_return_210_when_70_discount(){
+    public void should_return_30_when_70_discount(){
         DiscountPromotion promotion = new DiscountPromotion( 70 );
 
-        assertThat( promotion.getPrice( 100, 3 ), is( 210.0 ) );
+        assertThat( promotion.getPrice( 100, 3 ), is( 90.0 ) );
     }
 
 

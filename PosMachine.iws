@@ -54,6 +54,16 @@
     <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="PosMachine" />
   </component>
@@ -63,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/promotionStrategy/Promotion.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -73,20 +83,37 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/promotionStrategy/DiscountPromotion.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-              <folding>
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-              </folding>
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiscountPromotionTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/promotionStrategy/DiscountPromotionTest.java">
+      <file leaf-file-name="SecondHalfPromotion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/promotionStrategy/SecondHalfPromotion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommodityItem.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/entity/CommodityItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecondHalfPromotionTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/promotionStrategy/SecondHalfPromotionTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.8116883">
-              <caret line="25" column="0" selection-start-line="24" selection-start-column="1" selection-end-line="25" selection-end-column="0" />
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,6 +160,8 @@
         <option value="$PROJECT_DIR$/src/main/java/promotionStrategy/Promotion.java" />
         <option value="$PROJECT_DIR$/src/main/java/promotionStrategy/DiscountPromotion.java" />
         <option value="$PROJECT_DIR$/src/test/java/promotionStrategy/DiscountPromotionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/promotionStrategy/SecondHalfPromotion.java" />
+        <option value="$PROJECT_DIR$/src/test/java/promotionStrategy/SecondHalfPromotionTest.java" />
       </list>
     </option>
   </component>
@@ -283,6 +312,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PosMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PosMachine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -408,26 +463,7 @@
       <recent name="promotionStrategy" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.DiscountPromotionTest (1)">
-    <configuration default="false" name="CommodityParseTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests parser.CommodityParseTest" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="cleanTest" />
-            <option value="test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Gradle.SecondHalfPromotionTest">
     <configuration default="false" name="CartParserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -491,6 +527,25 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests promotionStrategy.DiscountPromotionTest" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="cleanTest" />
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="SecondHalfPromotionTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests promotionStrategy.SecondHalfPromotionTest" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -744,19 +799,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.CommodityParseTest" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.CartParserTest" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.DiscountPromotionTest" />
-      <item index="3" class="java.lang.String" itemvalue="Gradle.SecondHalfPromotionParserTest" />
-      <item index="4" class="java.lang.String" itemvalue="Gradle.DiscountPromotionTest (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Gradle.CartParserTest" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.DiscountPromotionTest" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.SecondHalfPromotionParserTest" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.DiscountPromotionTest (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.SecondHalfPromotionTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gradle.DiscountPromotionTest (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Gradle.SecondHalfPromotionParserTest" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.DiscountPromotionTest" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.CartParserTest" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.CommodityParseTest" />
+        <item index="0" class="java.lang.String" itemvalue="Gradle.SecondHalfPromotionTest" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.DiscountPromotionTest (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.SecondHalfPromotionParserTest" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.DiscountPromotionTest" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.CartParserTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -789,12 +844,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CartParserTest - 2015.12.07 at 21h 16m 12s.xml">
-      <configuration name="CartParserTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="CommodityParseTest - 2015.12.07 at 21h 08m 56s.xml">
-      <configuration name="CommodityParseTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="DiscountPromotionTest - 2015.12.07 at 21h 20m 26s.xml">
       <configuration name="DiscountPromotionTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -807,16 +856,28 @@
     <history-entry file="DiscountPromotionTest_(1) - 2015.12.07 at 21h 55m 02s.xml">
       <configuration name="DiscountPromotionTest (1)" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="DiscountPromotionTest_(1) - 2015.12.07 at 22h 05m 58s.xml">
+      <configuration name="DiscountPromotionTest (1)" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DiscountPromotionTest_(1) - 2015.12.07 at 22h 06m 37s.xml">
+      <configuration name="DiscountPromotionTest (1)" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DiscountPromotionTest_(1) - 2015.12.07 at 22h 06m 49s.xml">
+      <configuration name="DiscountPromotionTest (1)" configurationId="GradleRunConfiguration" />
+    </history-entry>
     <history-entry file="SecondHalfPromotionParserTest - 2015.12.07 at 21h 26m 46s.xml">
       <configuration name="SecondHalfPromotionParserTest" configurationId="GradleRunConfiguration" />
     </history-entry>
     <history-entry file="SecondHalfPromotionParserTest - 2015.12.07 at 21h 27m 27s.xml">
       <configuration name="SecondHalfPromotionParserTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="SecondHalfPromotionTest - 2015.12.07 at 22h 07m 33s.xml">
+      <configuration name="SecondHalfPromotionTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -825,7 +886,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -862,19 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/SecondHalfPromotionItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/parser/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -893,40 +941,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/parser/CommodityParseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/entity/CommodityItemTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.097402595">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CommodityItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/DiscountPromotionItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.064935066">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="34" />
-          <folding>
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -990,17 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CartItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12987013">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="34" />
-          <folding>
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/parser/SecondHalfPromotionParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29220778">
@@ -1013,7 +1021,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/parser/CommodityParseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.032467533">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CartItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12987013">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/SecondHalfPromotionItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25974026">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/DiscountPromotionItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.064935066">
+          <caret line="2" column="34" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/promotionStrategy/Promotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entity/CommodityItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
@@ -1021,21 +1071,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/promotionStrategy/DiscountPromotion.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/promotionStrategy/DiscountPromotionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.58441556">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
           <folding>
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/promotionStrategy/DiscountPromotionTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/promotionStrategy/DiscountPromotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/promotionStrategy/SecondHalfPromotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/promotionStrategy/SecondHalfPromotionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8116883">
-          <caret line="25" column="0" selection-start-line="24" selection-start-column="1" selection-end-line="25" selection-end-column="0" />
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

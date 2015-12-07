@@ -10,8 +10,8 @@ public class DiscountPromotion implements Promotion {
         this.discount = discount;
     }
 
-    public double getPrice( double  originPrice, Integer count ){
-        return originPrice*discount*count/100;
+    public double getPrice( double  originPrice, Integer quantity ){
+        return originPrice*(100 - discount)*quantity/100;
     }
 
 }

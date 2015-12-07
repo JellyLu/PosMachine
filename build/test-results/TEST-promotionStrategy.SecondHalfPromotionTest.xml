@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="promotionStrategy.SecondHalfPromotionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2015-12-07T14:07:33" hostname="Miss-Lu-MBP.lan" time="0.018">
+  <properties/>
+  <testcase name="should_return_100_when_quantity_is_4" classname="promotionStrategy.SecondHalfPromotionTest" time="0.016"/>
+  <testcase name="should_return_50_when_quantity_is_3" classname="promotionStrategy.SecondHalfPromotionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
