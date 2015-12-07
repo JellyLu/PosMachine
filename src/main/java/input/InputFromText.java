@@ -18,11 +18,8 @@ public class InputFromText extends AbstractInput{
     public ArrayList<String> getInputList()throws Exception{
 
        try {
-           File directory = new File("");
-           String courseFile = directory.getCanonicalPath() ;
-           String path = courseFile + "/src/test/resources/";
 
-           File file=new File( path + textName);
+           File file=new File(textName);
            if(file.isFile() && file.exists()) {
                InputStreamReader reader = new InputStreamReader( new FileInputStream(file), "GBK");
                BufferedReader bufferedReader = new BufferedReader(reader);

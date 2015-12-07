@@ -1,17 +1,18 @@
 package price;
 
+import promotionStrategy.FatherPromotion;
 import promotionStrategy.Promotion;
 
 import java.util.List;
 
 public class CalculatePrice {
-    List<Promotion> promotions;
+    List<FatherPromotion> promotions;
 
     public CalculatePrice() {
         this.promotions = null;
     }
 
-    public void setPromotions(List<Promotion> promotions) {
+    public void setPromotions(List<FatherPromotion> promotions) {
         this.promotions = promotions;
     }
 
