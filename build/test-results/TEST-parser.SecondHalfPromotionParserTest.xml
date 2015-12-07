@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="parser.SecondHalfPromotionParserTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2015-12-07T13:27:27" hostname="Miss-Lu-MBP.lan" time="0.008">
-  <properties/>
-  <testcase name="should_get_multiple_commodities" classname="parser.SecondHalfPromotionParserTest" time="0.004"/>
-  <testcase name="should_get_empty_goods_given_none" classname="parser.SecondHalfPromotionParserTest" time="0.003"/>
-  <testcase name="should_get_one_commodity" classname="parser.SecondHalfPromotionParserTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
