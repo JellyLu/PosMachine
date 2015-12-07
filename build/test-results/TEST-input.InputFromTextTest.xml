@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="input.InputFromTextTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-12-07T16:00:42" hostname="Miss-Lu-MBP.lan" time="0.028">
+  <properties/>
+  <testcase name="return_list_length_4_when_text_is_empty" classname="input.InputFromTextTest" time="0.028"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
