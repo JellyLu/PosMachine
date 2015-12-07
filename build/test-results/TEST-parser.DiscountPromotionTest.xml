@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="parser.DiscountPromotionTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-12-07T18:25:33" hostname="Miss-Lu-MBP.lan" time="0.004">
+  <properties/>
+  <testcase name="should_get_multiple_commodities" classname="parser.DiscountPromotionTest" time="0.001"/>
+  <testcase name="should_get_empty_goods_given_none" classname="parser.DiscountPromotionTest" time="0.001"/>
+  <testcase name="should_complain_invalid_input" classname="parser.DiscountPromotionTest" time="0.0"/>
+  <testcase name="should_complain_invalid_price" classname="parser.DiscountPromotionTest" time="0.0"/>
+  <testcase name="should_get_one_commodity" classname="parser.DiscountPromotionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

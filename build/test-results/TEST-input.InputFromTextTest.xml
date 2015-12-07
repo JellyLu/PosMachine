@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="input.InputFromTextTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2015-12-07T18:25:33" hostname="Miss-Lu-MBP.lan" time="0.021">
+  <properties/>
+  <testcase name="return_list_length_4_when_text_is_empty" classname="input.InputFromTextTest" time="0.02"/>
+  <testcase name="return_list_length_1_when_text_is_empty" classname="input.InputFromTextTest" time="0.0"/>
+  <testcase name="return_list_length_0_when_text_is_empty" classname="input.InputFromTextTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

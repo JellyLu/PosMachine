@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="posMachine.PosMachineControllerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-12-07T18:25:33" hostname="Miss-Lu-MBP.lan" time="0.003">
+  <properties/>
+  <testcase name="should_consume_return_308" classname="posMachine.PosMachineControllerTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

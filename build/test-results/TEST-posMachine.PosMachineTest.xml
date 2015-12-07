@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="posMachine.PosMachineTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2015-12-07T17:35:30" hostname="Miss-Lu-MBP.lan" time="0.136">
+<testsuite name="posMachine.PosMachineTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2015-12-07T18:25:33" hostname="Miss-Lu-MBP.lan" time="0.011">
   <properties/>
-  <testcase name="should_calculate_total_when_given_1_item_with_second_half_promotion" classname="posMachine.PosMachineTest" time="0.014"/>
-  <testcase name="should_calculate_total_when_given_multiple_items_without_promotion" classname="posMachine.PosMachineTest" time="0.015"/>
-  <testcase name="should_calculate_total_origin_price_when_given_1_item_with_discount_promotion" classname="posMachine.PosMachineTest" time="0.004"/>
-  <testcase name="should_return_0_when_shopping_cart_empty" classname="posMachine.PosMachineTest" time="0.005"/>
-  <testcase name="should_calculate_total_when_given_1_item_without_promotion" classname="posMachine.PosMachineTest" time="0.002"/>
-  <testcase name="should_calculate_total_when_given_1_item_with_discount_promotion" classname="posMachine.PosMachineTest" time="0.004"/>
-  <testcase name="should_calculate_total_when_given_multiple_types_item_with_discount_and_second_half_promotion" classname="posMachine.PosMachineTest" time="0.006"/>
-  <testcase name="should_calculate_total_when_given_multiple_types_item_with_discount_promotion" classname="posMachine.PosMachineTest" time="0.003"/>
-  <testcase name="should_calculate_total_when_given_1_item_with_discount_and_second_half_promotion" classname="posMachine.PosMachineTest" time="0.008"/>
-  <testcase name="should_calculate_total_when_given_multiple_types_item_with_second_half_promotion" classname="posMachine.PosMachineTest" time="0.003"/>
+  <testcase name="should_calculate_total_when_given_1_item_with_second_half_promotion" classname="posMachine.PosMachineTest" time="0.001"/>
+  <testcase name="should_calculate_total_when_given_multiple_items_without_promotion" classname="posMachine.PosMachineTest" time="0.001"/>
+  <testcase name="should_calculate_total_origin_price_when_given_1_item_with_discount_promotion" classname="posMachine.PosMachineTest" time="0.001"/>
+  <testcase name="should_return_0_when_shopping_cart_empty" classname="posMachine.PosMachineTest" time="0.001"/>
+  <testcase name="should_calculate_total_when_given_1_item_without_promotion" classname="posMachine.PosMachineTest" time="0.001"/>
+  <testcase name="should_calculate_total_when_given_1_item_with_discount_promotion" classname="posMachine.PosMachineTest" time="0.001"/>
+  <testcase name="should_calculate_total_when_given_multiple_types_item_with_discount_and_second_half_promotion" classname="posMachine.PosMachineTest" time="0.0"/>
+  <testcase name="should_calculate_total_when_given_multiple_types_item_with_discount_promotion" classname="posMachine.PosMachineTest" time="0.002"/>
+  <testcase name="should_calculate_total_when_given_1_item_with_discount_and_second_half_promotion" classname="posMachine.PosMachineTest" time="0.0"/>
+  <testcase name="should_calculate_total_when_given_multiple_types_item_with_second_half_promotion" classname="posMachine.PosMachineTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="price.CalculatePriceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-12-07T18:25:33" hostname="Miss-Lu-MBP.lan" time="0.003">
+  <properties/>
+  <testcase name="should_return_300_without_any_promotion" classname="price.CalculatePriceTest" time="0.0"/>
+  <testcase name="should_return_175_with_second_half_and_discount_promotion" classname="price.CalculatePriceTest" time="0.001"/>
+  <testcase name="should_return_210_just_discount_promotion" classname="price.CalculatePriceTest" time="0.0"/>
+  <testcase name="should_return_250_just_second_half_promotion" classname="price.CalculatePriceTest" time="0.0"/>
+  <testcase name="should_return_175_with_discount_and_second_half_promotion" classname="price.CalculatePriceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
