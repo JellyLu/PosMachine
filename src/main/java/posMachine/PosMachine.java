@@ -6,13 +6,16 @@ import entity.DiscountPromotionItem;
 import entity.SecondHalfPromotionItem;
 import price.CalculatePrice;
 import promotionStrategy.DiscountPromotion;
-import promotionStrategy.FatherPromotion;
+import promotionStrategy.Promotion;
 import promotionStrategy.SecondHalfPromotion;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class PosMachine {
-    private Map<String,List<FatherPromotion>> promotionMap;
+    private Map<String,List<Promotion>> promotionMap;
     private List<CommodityItem> commodityItems;
     private List<DiscountPromotionItem> discountPromotionItems;
     private List<SecondHalfPromotionItem> secondHalfPromotionItems;
@@ -38,7 +41,7 @@ public class PosMachine {
     private void addDiscountPromotionToMap() {
         if ( discountPromotionItems != null && discountPromotionItems.size() > 0 ) {
             for (DiscountPromotionItem discountPromotionItem : discountPromotionItems) {
-                List<FatherPromotion> promotionList = promotionMap.get(discountPromotionItem.getBarcode());
+                List<Promotion> promotionList = promotionMap.get(discountPromotionItem.getBarcode());
                 promotionList.add( new DiscountPromotion( discountPromotionItem.getDiscount() ) );
                 promotionMap.put( discountPromotionItem.getBarcode(), promotionList );
             }
@@ -49,7 +52,7 @@ public class PosMachine {
         if ( secondHalfPromotionItems != null && secondHalfPromotionItems.size() > 0 ) {
             for (SecondHalfPromotionItem secondHalfPromotionItem : secondHalfPromotionItems) {
 
-                List<FatherPromotion> promotionList = promotionMap.get( secondHalfPromotionItem.getBarcode());
+                List<Promotion> promotionList = promotionMap.get( secondHalfPromotionItem.getBarcode());
                 promotionList.add( new SecondHalfPromotion() );
                 promotionMap.put( secondHalfPromotionItem.getBarcode(), promotionList );
             }

@@ -1,6 +1,6 @@
 package promotionStrategy;
 
-public class DiscountPromotion extends FatherPromotion {
+public class DiscountPromotion implements Promotion {
     private final Integer discount;
 
     public DiscountPromotion( Integer discount ) {
