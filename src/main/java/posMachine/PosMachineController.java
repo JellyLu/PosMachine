@@ -19,15 +19,17 @@ public class PosMachineController {
     private List<DiscountPromotionItem> discountPromotionItems;
     private List<SecondHalfPromotionItem> secondHalfPromotionItems;
     private List<CartItem> cartItems;
+    private String resourcePath;
 
-    public PosMachineController() throws Exception {
+    public PosMachineController( String resourcePath ) throws Exception {
+        this.resourcePath = resourcePath;
         loadLists();
     }
 
     private String getPath() throws Exception{
         File directory = new File("");
         String courseFile = directory.getCanonicalPath();
-        return courseFile + "/src/main/resources/";
+        return courseFile + resourcePath;
     }
 
     private void loadLists( ) throws Exception{

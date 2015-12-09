@@ -9,8 +9,7 @@ public class PosMachineControllerTest {
 
     @Test
     public void should_consume_return_308() throws Exception{
-
-        PosMachineController posMachineController = new PosMachineController();
+        PosMachineController  posMachineController = new PosMachineController( "/src/main/resources/" );
 
         assertThat( posMachineController.consume(), is( 258d ) );
     }

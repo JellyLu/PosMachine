@@ -12,7 +12,7 @@ public class InputFromText extends AbstractInput{
 
     public void setTextName(String textName ) {
         this.textName = textName;
-        this.inputList = new ArrayList<String>();
+        this.inputList = new ArrayList<>();
     }
 
    @Override
