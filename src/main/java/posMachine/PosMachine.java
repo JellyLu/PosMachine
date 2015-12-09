@@ -25,12 +25,17 @@ public class PosMachine {
     }
 
     private void setPromotionMap(){
-        promotionMap = new HashMap<String,List<FatherPromotion>>();
+        promotionMap = new HashMap<>();
         for ( CommodityItem commodity : commodityItems ) {
-            List<FatherPromotion> promotions = new ArrayList<FatherPromotion>();
-            promotionMap.put( commodity.getBarcode(), promotions );
+            promotionMap.put( commodity.getBarcode(), new ArrayList<>() );
         }
 
+        addDiscountPromotionToMap();
+
+        addSecondHalfPromotionToMap();
+    }
+
+    private void addDiscountPromotionToMap() {
         if ( discountPromotionItems != null && discountPromotionItems.size() > 0 ) {
             for (DiscountPromotionItem discountPromotionItem : discountPromotionItems) {
                 List<FatherPromotion> promotionList = promotionMap.get(discountPromotionItem.getBarcode());
@@ -38,7 +43,9 @@ public class PosMachine {
                 promotionMap.put( discountPromotionItem.getBarcode(), promotionList );
             }
         }
+    }
 
+    private void addSecondHalfPromotionToMap() {
         if ( secondHalfPromotionItems != null && secondHalfPromotionItems.size() > 0 ) {
             for (SecondHalfPromotionItem secondHalfPromotionItem : secondHalfPromotionItems) {
 
